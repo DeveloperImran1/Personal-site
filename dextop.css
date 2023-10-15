@@ -1,0 +1,139 @@
+      /* Navbar Starts Here */
+      
+      /* For computer Display */
+
+      .col-1 {width: 8.33%;}
+      .col-2 {width: 16.66%;}
+      .col-3 {width: 25%;}
+      .col-4 {width: 33.33%;}
+      .col-5 {width: 41.66%;}
+      .col-6 {width: 50%;}      /* W3 school theke ai class gulo copy kore ba make kore  nita hobe . than jei div joto gulo column niba html a hia sei div er classer value ai class name dita hobe. */
+      .col-7 {width: 58.33%;}
+      .col-8 {width: 66.66%;}
+      .col-9 {width: 75%;}
+      .col-10 {width: 83.33%;}
+      .col-11 {width: 91.66%;}
+      .col-12 {width:100%;}
+
+
+      .nav-logo{
+        text-align:left;   /* logor jonno 2 ta column newa hoiase. oi 2 ta column er left a logo bosbe. */
+      }
+
+      .nav-heading h1{
+        text-align:right;    /* heading er jonno 4 ta column newa hoiase, oi 4ta column er rihght a head bosbe */
+      }
+
+      .navbar-menu{
+        flex-direction:row;   /* Desktop er jonno menu gulo row borabor bosbe. Jeheto mobile er css code a display flex kora ase .tai Aikhane display flex korte hobena. */
+        justify-content:flex-end;   /*  content gulo end theke bosbe*/
+      }
+      .navbar-menu a{
+        padding:5px 10px;
+        margin:20px 0;
+        background-color:transparent;
+      }
+
+      /* Navbar Ends Here */
+
+
+
+      /* Profile Starts here */
+      .profile .top-weather-icon{
+        right:100px;
+        width:250px;
+        transition:width 2s, transform 2s;
+      }
+      .profile .top-weather-icon:hover{
+        width:300px;
+      }
+
+      .profile-desc p{
+        margin-bottom:10px;
+        width:50%;
+    }
+
+      .profile .bottom-weather-icon{
+        left:100px;
+        width:250px;
+        transition:width 2s, transform 2s;
+      }
+      .profile .bottom-weather-icon:hover{
+        width:300px;
+      }
+
+
+      /* Profile Ends Here */
+
+
+      /* About me Start here */
+     
+      .aboutme-image img{
+        
+        margin-top:100px;
+        transition-property:width height;
+        transition-duration:3s;
+        transition-delay:1s;
+        transition-timing-function:ease;
+        transform:2s;
+      }
+  
+      .aboutme-desc p{
+        text-align:left;
+      }
+
+      /* About me End here */
+
+
+
+      /* Professional experience starts here */
+
+
+      .professional-experience{
+        padding:1% 3%;
+      }
+
+
+
+      /* Professional experience ends here */
+
+
+      
+/* Achievement-contact starts here */
+
+
+      .achievement{
+        padding-right:50px;
+      }
+
+      .contact button{
+        width:150px;
+      }
+
+
+      .contact-link{
+        position:relative;
+      }
+      .media-buttons{
+        position:absolute;
+        margin-top:200px;
+        left:50%;
+        top:50%;
+        transform: translate(-50%, -50%);
+      }
+
+/* Achievement-contact end here */
+
+
+/* Footer starts here */
+
+.footer-menu{
+  margin-top:12px;
+}
+.footer-menu a{
+  display:inline;
+  margin:10px;
+}
+
+
+/* Footer ends here */
